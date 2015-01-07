@@ -1,0 +1,23 @@
+{
+  "name": "yorik",
+  "version": "1.0.0",
+  "description": "interactive unix tutorial for the browser based on jor1k",
+  "main": "index.js",
+  "scripts": {
+    "open": "beefy index.js node_modules/jor1k/js/worker/worker.js:jor1k-worker-min.js --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jor1k",
+    "tutorial",
+    "linux",
+    "unix"
+  ],
+  "author": "Jan Bölsche",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^8.0.3",
+    "jshint": "^2.5.11",
+    "beefy": "^2.1.1"
+  }
+}
